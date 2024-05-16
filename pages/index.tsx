@@ -16,6 +16,10 @@ const HomePage = () => {
         <Nav openNav={openNav} />
         {/* Hero section */}
         <Hero />
+        <div className="">
+          {/* About */}
+          <About />
+        </div>
       </div>
     </div>
   );
