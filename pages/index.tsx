@@ -5,6 +5,7 @@ import Hero from "@/Components/Hero";
 import About from "@/Components/About";
 import Service from "@/Components/Service";
 import Skils from "@/Components/Skils";
+import Projects from "@/Components/Projects";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -21,12 +22,17 @@ const HomePage = () => {
         <Hero />
 
         <div className="relative z-[30]">
-          {/* About */}
+          {/* About section */}
           <About />
+
           {/* Service section */}
           <Service />
+
           {/* Skils */}
           <Skils />
+
+          {/* Projects */}
+          <Projects />
         </div>
       </div>
     </div>
