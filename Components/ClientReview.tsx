@@ -10,7 +10,7 @@ interface Props {
 const ClientReview = ({ name, role, image }: Props) => {
   return (
     <div className="flex flex-col text-center justify-center">
-      <img src={image} alt={name} width={100} height={100} objectFit="contain" className="mx-auto mb-[2rem] rounded-full" />
+      <img src={image} alt={name} width={100} height={100} className="mx-auto mb-[2rem] rounded-full" />
       <div className="flex items-center mx-auto">
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500" />
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-500" />

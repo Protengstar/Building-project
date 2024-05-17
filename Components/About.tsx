@@ -22,7 +22,7 @@ const About = () => {
           </button>
         </div>
         <div className="lg:w-[350px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
-          <img src="/images/about.jpg" alt="user" layout="fill" objectFit="contain" className="relative z-[11] w-[100%] object-contain" />
+          <img src="/images/about.jpg" alt="user" className="relative z-[11] w-[100%] object-contain" />
           <div className="absolute w-[100%] h-[70%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem]"></div>
         </div>
       </div>
