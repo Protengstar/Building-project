@@ -6,6 +6,7 @@ import About from "@/Components/About";
 import Service from "@/Components/Service";
 import Skils from "@/Components/Skils";
 import Projects from "@/Components/Projects";
+import Testimonial from "@/Components/Testimonial";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -33,6 +34,9 @@ const HomePage = () => {
 
           {/* Projects */}
           <Projects />
+
+          {/* Reviews testimonial */}
+          <Testimonial />
         </div>
       </div>
     </div>
