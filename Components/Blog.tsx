@@ -3,12 +3,12 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]">
+    <div id="blog" className="pt-[6rem] md:pt-[6rem] pb-[4rem] bg-[#02050a]">
       <h1 className="heading">
         MY <span className="text-yellow-400">BLOG</span>
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto">
-        <div>
+        <div data-aos="fade-up" data-aos-delay="300">
           <div className="w-[100%] relative">
             <img src="/images/blog3.jpg" alt="blog" className="object-cover" />
           </div>
@@ -27,7 +27,7 @@ const Blog = () => {
             <p className="mt-[1rem] text-white text-[18px] font-semibold">Next Js Fullstack Development</p>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600">
           <div className="w-[100%] relative">
             <img src="/images/blog2.jpg" alt="blog" className="object-cover" />
           </div>
@@ -46,7 +46,7 @@ const Blog = () => {
             <p className="mt-[1rem] text-white text-[18px] font-semibold">Next Js Fullstack Development</p>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="900">
           <div className="w-[100%] relative">
             <img src="/images/blog3.jpg" alt="blog" className="object-cover" />
           </div>
